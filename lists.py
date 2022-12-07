@@ -26,14 +26,27 @@
 # print('after sorted: ', alphabet_list)
 # item_count = len(alphabet_list)
 # print('length of list: ', item_count)
-alphabet_list = ['b', 'e', 'd', 'a', 'c']
-my_list = [1, 2, 3, 4, 5]
-
-another_list = my_list + alphabet_list
-my_list.append(alphabet_list)
-print(another_list)
-print('after appending: ', my_list )
+# alphabet_list = ['b', 'e', 'd', 'a', 'c']
+# my_list = [1, 2, 3, 4, 5]
+#
+# another_list = my_list + alphabet_list
+# my_list.append(alphabet_list)
+# print(another_list)
+# print('after appending: ', my_list )
 
 #
 # for i in range(0, len(my_list)):
 #     print(my_list[i])
+
+# my_list = ['a', 'b', 'c', 1, 2, 3, ['apple', 'banana', 'strawberry'], 'd']
+# # print(my_list)
+# # print(my_list[6])
+# print(my_list[6][0])
+#
+# extracted_list = my_list[6]
+# print(extracted_list[2])
+
+my_list = ['a', 'b', 'c', 'd', 'c', 'a', 'a', 'a']
+print(my_list.index('c'))
+print(my_list.count('c')) #2
+print(my_list.count('a')) #4
