@@ -28,13 +28,24 @@
 # print(type(data_type))
 
 # Arithmetic
-num1 = 3
-num2 = 10
-print('Modulo: ', num1 % num2)
-print('Division: ', num2 / num1)
-print('Division but getting whole number: ', num2 // num1)
-print('Square: ', num2 ** 2)
-answer = 10 + 3 * 9 - 4
-print(answer)
-answer = (10 + 3) * 9 - 4
-print (answer)
+# num1 = 3
+# num2 = 10
+# print('Modulo: ', num1 % num2)
+# print('Division: ', num2 / num1)
+# print('Division but getting whole number: ', num2 // num1)
+# print('Square: ', num2 ** 2)
+# answer = 10 + 3 * 9 - 4
+# print(answer)
+# answer = (10 + 3) * 9 - 4
+# print (answer)
+
+# String and slicing string
+sentence = "I'm coming home"
+print(sentence)
+
+s = 'this is a sentence'
+print(s[5:7])
+
+sentence = 'abcdefg'
+print(sentence[0:7:2])
+print(sentence[3:])
