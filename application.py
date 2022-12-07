@@ -40,24 +40,33 @@
 # print (answer)
 
 # String and slicing string
-sentence = "I'm coming home"
-print(sentence)
+# sentence = "I'm coming home"
+# print(sentence)
+#
+# s = 'this is a sentence'
+# print(s[5:7])
+#
+# sentence = 'abcdefg'
+# print(sentence[0:7:2])
+# print(sentence[3:])
+#
+# sentence = 'this is a sentence'
+# print(sentence.upper())
+# upper_sentence = 'THIS IS A SENTENCE'
+# print(upper_sentence.lower())
+# print(sentence.capitalize())
+# print(upper_sentence.capitalize())
+#
+# print(sentence.isdigit())
+# n = 'adgfjasfdju'
+# print(n.isalnum())
+# print(n.startswith('sfasf'))
 
-s = 'this is a sentence'
-print(s[5:7])
+# sentence = 'the subtraction of {2} and {1} is {0}'.format(25, 5, 30)
+# print(sentence)
 
-sentence = 'abcdefg'
-print(sentence[0:7:2])
-print(sentence[3:])
-
-sentence = 'this is a sentence'
-print(sentence.upper())
-upper_sentence = 'THIS IS A SENTENCE'
-print(upper_sentence.lower())
-print(sentence.capitalize())
-print(upper_sentence.capitalize())
-
-print(sentence.isdigit())
-n = 'adgfjasfdju'
-print(n.isalnum())
-print(n.startswith('sfasf'))
+# String is immutable
+my_var = 'abcdefg'
+print(my_var[0])
+my_var = "1" + my_var[1:]
+print(my_var)
