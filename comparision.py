@@ -1,0 +1,7 @@
+print(10 == 10)
+print(10 == 2)
+print('hello' == 'Hello')
+print('hello ' == 'hello')
+print(5 == '5')
+condition = (5 == 5)
+print(condition)
