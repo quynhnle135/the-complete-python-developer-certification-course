@@ -49,3 +49,15 @@ print(s[5:7])
 sentence = 'abcdefg'
 print(sentence[0:7:2])
 print(sentence[3:])
+
+sentence = 'this is a sentence'
+print(sentence.upper())
+upper_sentence = 'THIS IS A SENTENCE'
+print(upper_sentence.lower())
+print(sentence.capitalize())
+print(upper_sentence.capitalize())
+
+print(sentence.isdigit())
+n = 'adgfjasfdju'
+print(n.isalnum())
+print(n.startswith('sfasf'))
