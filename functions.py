@@ -23,27 +23,46 @@
 
 # *args and *kwargs
 
-result = sum((1, 2, 3, 4, 5))
-print(result)
+# result = sum((1, 2, 3, 4, 5))
+# print(result)
 
 # my_list = [1, 2, 3, 4, 5]
 # my_list[0] = 17
 # for i in range (0, len(my_list) - 1):
 #     print(my_list[i])
 
-def my_sum(a,b,c,d):
-    return sum((a, b, c, d))
+# def my_sum(a,b,c,d):
+#     return sum((a, b, c, d))
+#
+# print(my_sum(1, 2, 3, 4))
+#
+# def mysum(*args):
+#     return sum((args))
+#
+# print(mysum(1, 2, 3, 4, 4, 5, 6, 7))
+#
+# def key_value_func(**kwargs):
+#     print(kwargs)
+#     print(kwargs.keys())
+#     print(kwargs.values())
+#
+# key_value_func(name="Quinn", height=160, weight=150)
 
-print(my_sum(1, 2, 3, 4))
+# scope variables
+# global scope variable
+# age = 27
+# print(age)
 
-def mysum(*args):
-    return sum((args))
+def increase_age():
+    age = 10
+    # defining a nested function
+    def add_4_to_age(age):
+        age = age + 4
+        print("Nested fucntion: " + str(age))
+    # call the nested function
+    add_4_to_age(age)
 
-print(mysum(1, 2, 3, 4, 4, 5, 6, 7))
+# print(age)
+increase_age()
 
-def key_value_func(**kwargs):
-    print(kwargs)
-    print(kwargs.keys())
-    print(kwargs.values())
-
-key_value_func(name="Quinn", height=160, weight=150)
+# scope and nested function
